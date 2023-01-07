@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "lint": "eslint .",
+    "cover": "nyc npm run test"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/PKReap/DiscordEkkoBot/issues"
   },
-  "homepage": "https://github.com/PKReap/DiscordEkkoBot#readme"
+  "homepage": "https://github.com/PKReap/DiscordEkkoBot#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.31.0",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "sinon": "^15.0.1"
+  }
 }
