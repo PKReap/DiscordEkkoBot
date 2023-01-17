@@ -1,6 +1,5 @@
 const { expect } = require('chai');
 
-
 const { make_uwu, uwufy } = require('../src/commands/uwufy');
 
 describe('Ekko Tests', async () => {
